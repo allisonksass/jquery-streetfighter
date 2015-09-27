@@ -33,13 +33,15 @@ $(document).ready(function() {
  $("body").keydown(function(event){
 		if(event.which == 88){
 			$('.ryu-still').hide();
-			$('.ryu-cool').show(); 
+			$('.ryu-cool').show();
+			$('.ryu-ready').hide(); 
 		}
 		})
 	.keyup(function(event){
 		if(event.which == 88){
 			$('.ryu-still').show();
-			$('.ryu-cool').hide(); 
+			$('.ryu-cool').hide();
+			$('.ryu-ready').hide(); 
 		}
 		});
 
